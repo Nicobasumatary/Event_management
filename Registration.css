@@ -1,0 +1,83 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Pic1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backdrop{
+    width: 480px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    padding: 50px 45px;
+}
+.backdrop h1{
+    font-size: 36px;
+    text-align: center;
+    color:gray ;
+}
+.backdrop .inputbox{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+.backdrop input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    font-size: 16px;
+    color:gainsboro;
+    padding: 20px 45px 20px 20px;
+}
+.inputbox input::placeholder{
+    color: gainsboro;
+}
+.backdrop .btn{
+    width: 90%;
+    height: 45px;
+    margin: 25px;
+    background: wheat;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    color:#4d854d;
+    font-weight: 600;
+}
+.backdrop .sign_in{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.sign_in p a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+.sign_in p a:hover{
+    text-decoration: underline;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
